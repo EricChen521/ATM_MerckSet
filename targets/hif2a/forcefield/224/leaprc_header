@@ -1,0 +1,40 @@
+addAtomTypes {
+    { "aa"    "O"    "sp3" }
+    { "ab"    "C"    "sp3" }
+    { "ad"    "C"    "sp3" }
+    { "ae"    "C"    "sp3" }
+    { "af"    "C"    "sp2" }
+    { "ah"    "C"    "sp2" }
+    { "ai"    "C"    "sp2" }
+    { "aj"    "C"    "sp2" }
+    { "ak"    "C"    "sp2" }
+    { "an"    "C"    "sp2" }
+    { "ao"    "O"    "sp3" }
+    { "ap"    "C"    "sp2" }
+    { "aq"    "S"    "sp3" }
+    { "av"    "O"    "sp2" }
+    { "aw"    "O"    "sp2" }
+    { "ax"    "C"    "sp3" }
+    { "ay"    "F"    "sp3" }
+    { "az"    "F"    "sp3" }
+    { "bb"    "F"    "sp3" }
+    { "bc"    "F"    "sp3" }
+    { "bd"    "F"    "sp3" }
+    { "bf"    "C"    "sp2" }
+    { "bg"    "N"    "sp2" }
+    { "bh"    "N"    "sp3" }
+    { "bj"    "C"    "sp2" }
+    { "bk"    "C"    "sp3" }
+    { "bl"    "H"    "sp3" }
+    { "bm"    "H"    "sp3" }
+    { "bn"    "H"    "sp3" }
+    { "bo"    "H"    "sp3" }
+    { "bp"    "H"    "sp3" }
+    { "bq"    "H"    "sp3" }
+    { "bs"    "H"    "sp3" }
+    { "bt"    "H"    "sp3" }
+    { "bu"    "H"    "sp3" }
+    { "bv"    "H"    "sp3" }
+    { "bw"    "H"    "sp3" }
+}
+
