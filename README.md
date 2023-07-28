@@ -1,11 +1,13 @@
-Descriotion
+Description
 ===========
 
 The structural files and scripts to launch ATM calculation on [Schindler](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.0c00900) et al. dataset. 
 
 The repository is organized as following:
 
-Under the **targets** directory, the repo includes 8 different target systems: **cdk8**, **cmet**, **eg5**, **hif2a**, **pfkfb3**, **shp2**, **syk**, **tnks2**. Inside each target, we provided:
+Under the **targets** directory, the repo includes 8 different target systems: **cdk8**, **cmet**, **eg5**, **hif2a**, **pfkfb3**, **shp2**, **syk**, **tnks2**.
+
+Inside each target, the repo provides:
 
 * protein/protein.pdb (Prepared receptor structure after water placement).
 * ligands/_ligandname_/ligand.sdf (Prepared ligand structure for each ligand).
