@@ -9,21 +9,17 @@ Under the **targets** directory, the repo includes 8 different target systems: *
 
 Inside each target, the repo provides:
 
-* protein/protein.pdb (Prepared receptor structure after water placement).
-* ligands/_ligandname_/ligand.sdf (Prepared ligand structure for each ligand).
-* forcefield/_ligandname_: FFEngine forcefield parametrization for each ligand.
 * free_energy/_pairname_
 	+ atom.cntl (ATM control file).
 	+ mintherm_atm.py/mdlambda_equil_atm.py/mdlambda_atm.py (ATM structural equilibration protocol).
-	+ complex.prmtop/complex.inpcrd (ATM system for each pair).
-	+ nodefile (Available GPU devices for ATM).
+	+ complex.prmtop/complex.inpcrd (molecular system for each pair).
+	+ nodefile (file that specifies available GPU devices).
 
-Under the **scripts** directroy, the repo provides useful scripts to launch ATM claculation and analyze ATM results:  
+Under the **scripts** directroy, the repo provides two useful scripts:
+
+* run_atm.sh (script to run ATM calculation for each RBFE pair).
+* uwhat_analysis.R (script to analyze perturbation with UWHAT).  
 	
-* run_atm.sh (To launch ATM calculation for the RBFE pair).
-* run_uwhat.sh (To launch UWHAT analysis on trajectory energies to get ddG).
-* run_diffnet.py (To do DiffNet analysis on ddG to get dG).
-* bfe_correlation.py (Plot correlation between experimental and predicted dG).
 
  
 
