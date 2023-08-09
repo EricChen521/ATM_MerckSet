@@ -8,7 +8,7 @@ The repository is organized as following:
 Under the **targets** directory, the repo includes 8 different target systems: **cdk8**, **cmet**, **eg5**, **hif2a**, **pfkfb3**, **shp2**, **syk**, **tnks2**.
 
 Inside each target, the repo provides:
-
+* edges_analysis.csv (ATM results for each pair) 
 * free_energy/_pairname_
 	+ atom.cntl (ATM control file).
 	+ mintherm_atm.py/mdlambda_equil_atm.py/mdlambda_atm.py (ATM structural equilibration protocol).
